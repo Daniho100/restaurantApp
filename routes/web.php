@@ -65,7 +65,7 @@ Route::post("uploadfood",[AdminController::class,"uploadchef"]);
 
 Route::get("redirects",[HomeController::class,"redirects"]);
 
-Route::get("addcart/{id}",[HomeController::class,"addcart"]);
+Route::post("addcart/{id}",[HomeController::class,"addcart"]);
 
 Route::get("showcart/{id}",[HomeController::class,"showcart"]);
 
